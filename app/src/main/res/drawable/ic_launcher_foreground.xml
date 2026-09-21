@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Backing sheet shadow -->
+    <path
+        android:pathData="M38,28 L68,28 L76,36 L76,82 C76,84.2 74.2,86 72,86 L38,86 C35.8,86 34,84.2 34,82 L34,32 C34,29.8 35.8,28 38,28 Z"
+        android:fillColor="#1E40AF" />
+
+    <!-- Main document body (clean crisp white/frost) -->
+    <path
+        android:pathData="M32,24 L62,24 L72,34 L72,80 C72,82.2 70.2,84 68,84 L32,84 C29.8,84 28,82.2 28,80 L28,28 C28,25.8 29.8,24 32,24 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Folded corner tab -->
+    <path
+        android:pathData="M62,24 L72,34 L64,34 C62.9,34 62,33.1 62,32 L62,24 Z"
+        android:fillColor="#CBD5E1" />
+
+    <!-- Document accent lines (representing multi-format docs) -->
+    <!-- Red line for PDF -->
+    <path
+        android:pathData="M36,42 L52,42"
+        android:strokeWidth="3.5"
+        android:strokeColor="#EF4444"
+        android:strokeLineCap="round" />
+    <!-- Blue line for Word -->
+    <path
+        android:pathData="M36,50 L64,50"
+        android:strokeWidth="3.5"
+        android:strokeColor="#2563EB"
+        android:strokeLineCap="round" />
+    <!-- Emerald line for Excel -->
+    <path
+        android:pathData="M36,58 L58,58"
+        android:strokeWidth="3.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+    <!-- Amber line for Slides/PPT -->
+    <path
+        android:pathData="M36,66 L48,66"
+        android:strokeWidth="3.5"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round" />
+
+    <!-- Magnifying lens badge overlay in bottom right (representing Viewer/Discovery) -->
+    <path
+        android:pathData="M65,65 C68.866,65 72,61.866 72,58 C72,54.134 68.866,51 65,51 C61.134,51 58,54.134 58,58 C58,61.866 61.134,65 65,65 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M65,54 C67.2,54 69,55.8 69,58 C69,60.2 67.2,62 65,62 C62.8,62 61,60.2 61,58 C61,55.8 62.8,54 65,54 Z"
+        android:fillColor="#0284C7" />
+    <path
+        android:pathData="M70,63 L79,72"
+        android:strokeWidth="3.5"
+        android:strokeColor="#0284C7"
+        android:strokeLineCap="round" />
+</vector>

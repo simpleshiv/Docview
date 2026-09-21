@@ -1,0 +1,6 @@
+{
+  "name": "DocView Pro",
+  "description": "Every Document. One Powerful Viewer. Premium all-in-one document viewer and file manager for PDF, Word, Excel, PowerPoint, Text, and Images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
